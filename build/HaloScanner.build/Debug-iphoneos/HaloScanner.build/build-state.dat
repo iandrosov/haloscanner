@@ -1,0 +1,884 @@
+THaloScanner
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Info.plist /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/HaloScanner-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/HaloScanner.app/ResourceRules.plist
+cPhaseScriptExecution Copy\ www\ directory /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Script-304B58A110DAC018002A0835.sh
+cCpResource HaloScanner/config.xml build/device/HaloScanner.app/config.xml
+cCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-76.png HaloScanner/Resources/icons/icon-76.png
+cCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-40@2x.png HaloScanner/Resources/icons/icon-40@2x.png
+cCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-72.png HaloScanner/Resources/icons/icon-72.png
+cCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon.png HaloScanner/Resources/icons/icon.png
+cCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon@2x.png HaloScanner/Resources/icons/icon@2x.png
+cCopyStringsFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/en.lproj/Localizable.strings HaloScanner/Resources/en.lproj/Localizable.strings
+cCompileXIB /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Classes/MainViewController.xib
+cCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-50.png HaloScanner/Resources/icons/icon-50.png
+cCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-60@2x.png HaloScanner/Resources/icons/icon-60@2x.png
+cCopyStringsFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/de.lproj/Localizable.strings HaloScanner/Resources/de.lproj/Localizable.strings
+cCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-small.png HaloScanner/Resources/icons/icon-small.png
+cCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default-Landscape@2x~ipad.png HaloScanner/Resources/splash/Default-Landscape@2x~ipad.png
+cCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default-Landscape~ipad.png HaloScanner/Resources/splash/Default-Landscape~ipad.png
+cCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default-Portrait@2x~ipad.png HaloScanner/Resources/splash/Default-Portrait@2x~ipad.png
+cCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-small@2x.png HaloScanner/Resources/icons/icon-small@2x.png
+cCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default-Portrait~ipad.png HaloScanner/Resources/splash/Default-Portrait~ipad.png
+cCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-40.png HaloScanner/Resources/icons/icon-40.png
+cCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default@2x~iphone.png HaloScanner/Resources/splash/Default@2x~iphone.png
+cCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-60.png HaloScanner/Resources/icons/icon-60.png
+cCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default~iphone.png HaloScanner/Resources/splash/Default~iphone.png
+cCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default-568h@2x~iphone.png HaloScanner/Resources/splash/Default-568h@2x~iphone.png
+cCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-50@2x.png HaloScanner/Resources/icons/icon-50@2x.png
+cCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-76@2x.png HaloScanner/Resources/icons/icon-76@2x.png
+cCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-72@2x.png HaloScanner/Resources/icons/icon-72@2x.png
+cProcessPCH /var/folders/sm/sp2bj73d63sd1nw7gf1lr7440000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/HaloScanner-Prefix-akdudsawwkcfcgbjmndvsdxuqrsz/HaloScanner-Prefix.pch.pch HaloScanner/HaloScanner-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/main.o /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/AppDelegate.o /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/MainViewController.o /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/HaloScanner normal armv7
+cGenerateDSYMFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app.dSYM /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/HaloScanner
+cProcessProductPackaging /Users/appirio/Library/MobileDevice/Provisioning\ Profiles/D3C0DC78-B619-4AA5-B8C2-9D718AA14830.mobileprovision /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/embedded.mobileprovision
+cTouch /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/HaloScanner.xcent
+cCodeSign /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+c00000000525642EE0000000000000110
+t1381384942
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
+c00000000528ED5860000000000000094
+t1385092486
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
+c00000000528ED5860000000000000096
+t1385092486
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
+c00000000528ED586000000000000036B
+t1385092486
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000528ED58600000000000001A0
+t1385092486
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000528ED5870000000000075BB0
+t1385092487
+s482224
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000528ED58800000000004D63C0
+t1385092488
+s5071808
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000528ED5880000000000146100
+t1385092488
+s1335552
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/ExternalAccessory.framework/ExternalAccessory
+c00000000528ED5890000000000075DD0
+t1385092489
+s482768
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000528ED58A0000000000210C80
+t1385092490
+s2165888
+
+N/Users/appirio/Library/MobileDevice/Provisioning Profiles/D3C0DC78-B619-4AA5-B8C2-9D718AA14830.mobileprovision
+c0000000052D7D6BA0000000000003678
+t1389876922
+s13944
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Classes/AppDelegate.m
+c0000000052E81A3400000000000013AD
+t1390942772
+s5037
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Classes/MainViewController.m
+c0000000052E81A34000000000000126C
+t1390942772
+s4716
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Classes/MainViewController.xib
+c0000000052E81A340000000000001759
+t1390942772
+s5977
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/HaloScanner-Info.plist
+c0000000052E838860000000000000AE8
+t1390950534
+s2792
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/HaloScanner-Prefix.pch
+c0000000052E81A3400000000000003C7
+t1390942772
+s967
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/de.lproj/Localizable.strings
+c0000000052E81A3400000000000004BF
+t1390942772
+s1215
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/en.lproj/Localizable.strings
+c0000000052E81A3400000000000004AA
+t1390942772
+s1194
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-40.png
+c0000000052E81A340000000000000FF2
+t1390942772
+s4082
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-40@2x.png
+c0000000052E81A340000000000001CF3
+t1390942772
+s7411
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-50.png
+c0000000052E81A34000000000000130A
+t1390942772
+s4874
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-50@2x.png
+c0000000052E81A34000000000000258B
+t1390942772
+s9611
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-60.png
+c0000000052E81A3400000000000016B3
+t1390942772
+s5811
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-60@2x.png
+c0000000052E81A340000000000002E94
+t1390942772
+s11924
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-72.png
+c0000000052E81A340000000000001350
+t1390942772
+s4944
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-72@2x.png
+c0000000052E81A340000000000002DBA
+t1390942772
+s11706
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-76.png
+c0000000052E81A340000000000001B71
+t1390942772
+s7025
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-76@2x.png
+c0000000052E81A340000000000003B9E
+t1390942772
+s15262
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-small.png
+c0000000052E81A340000000000000CDE
+t1390942772
+s3294
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-small@2x.png
+c0000000052E81A3400000000000015E8
+t1390942772
+s5608
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon.png
+c0000000052E81A340000000000000F3E
+t1390942772
+s3902
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon@2x.png
+c0000000052E81A340000000000001EBD
+t1390942772
+s7869
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/splash/Default-568h@2x~iphone.png
+c0000000052E81A3400000000000085B1
+t1390942772
+s34225
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000052E81A340000000000012DF4
+t1390942772
+s77300
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/splash/Default-Landscape~ipad.png
+c0000000052E81A340000000000008877
+t1390942772
+s34935
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000052E81A340000000000012B02
+t1390942772
+s76546
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/splash/Default-Portrait~ipad.png
+c0000000052E81A3400000000000085E6
+t1390942772
+s34278
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/splash/Default@2x~iphone.png
+c0000000052E81A340000000000007323
+t1390942772
+s29475
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/splash/Default~iphone.png
+c0000000052E81A34000000000000289A
+t1390942772
+s10394
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/config.xml
+c0000000052E838860000000000000569
+t1390950534
+s1385
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/main.m
+c0000000052E81A34000000000000045D
+t1390942772
+s1117
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/HaloScanner.xcent
+t1390950538
+s420
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/AppDelegate.o
+t1390950538
+s78080
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/HaloScanner.LinkFileList
+c0000000052E8388900000000000001EF
+t1390950537
+s495
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/MainViewController.o
+t1390950538
+s53328
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/main.o
+t1390950538
+s3164
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Script-304B58A110DAC018002A0835.sh
+c0000000052E83889000000000000002D
+t1390950537
+s45
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app
+t1390950538
+s1088
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app.dSYM
+t2
+s0
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default-568h@2x~iphone.png
+t1390950538
+s61990
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default-Landscape@2x~ipad.png
+t1390950538
+s143186
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default-Landscape~ipad.png
+t1390950538
+s65305
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default-Portrait@2x~ipad.png
+t1390950538
+s136924
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default-Portrait~ipad.png
+t1390950538
+s63460
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default@2x~iphone.png
+t1390950538
+s55319
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default~iphone.png
+t1390950538
+s20021
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/HaloScanner
+t1390950538
+s1334012
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Info.plist
+t1390950537
+s1700
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/MainViewController.nib
+t1390950537
+s836
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/PkgInfo
+t2
+s0
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/ResourceRules.plist
+t1390950537
+s150
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/config.xml
+t1390950537
+s1385
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/de.lproj/Localizable.strings
+t1390950537
+s280
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/embedded.mobileprovision
+t1390950538
+s13944
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/en.lproj/Localizable.strings
+t1390950537
+s166
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-40.png
+t1390950538
+s4450
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-40@2x.png
+t1390950537
+s8883
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-50.png
+t1390950537
+s5557
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-50@2x.png
+t1390950538
+s11331
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-60.png
+t1390950538
+s6838
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-60@2x.png
+t1390950537
+s14152
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-72.png
+t1390950537
+s8045
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-72@2x.png
+t1390950538
+s17926
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-76.png
+t1390950537
+s8463
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-76@2x.png
+t1390950538
+s16629
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-small.png
+t1390950537
+s3349
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-small@2x.png
+t1390950537
+s6585
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon.png
+t1390950537
+s5977
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon@2x.png
+t1390950537
+s13012
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/libCordova.a
+c0000000052E8388900000000001BC3D8
+t1390950537
+s1819608
+
+N/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/libdtdev.a
+c0000000052704296000000000079AB34
+t1383088790
+s7973684
+
+N/var/folders/sm/sp2bj73d63sd1nw7gf1lr7440000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/HaloScanner-Prefix-akdudsawwkcfcgbjmndvsdxuqrsz/HaloScanner-Prefix.pch.pch
+t1390950450
+s5284152
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies111bcc097098b841^bebccc097098b841^---0#1#1#--18"Check dependencies36"8B7CD9E1-2AF9-4037-BA53-3F53F70CFB7E-
+
+CCodeSign /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app
+s412643338.614588
+e412643338.765508
+r1
+xCodeSign
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"CodeSign build/device/HaloScanner.app37"CodeSign build/device/HaloScanner.app687a9d0a7098b841^6005c40a7098b841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/0000000000000000^1331"CodeSign build/device/HaloScanner.app    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    Using code signing identity "iPhone Developer: Igor Androsov (XK642XJC86)" and provisioning profile "iOS Team Provisioning Profile: *" (D3C0DC78-B619-4AA5-B8C2-9D718AA14830)    codesign --force --sign 9BDD274C41D22E131DDBE659D12983C11F6003A9 --resource-rules=/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/ResourceRules.plist --entitlements /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/HaloScanner.xcent /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app36"C9D781EA-E2F0-4168-A489-E72BD6DCCB42-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCompileC build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/AppDelegate.o /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412643338.361870
+e412643338.417318
+r1
+xCompileC
+xbuild/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/AppDelegate.o
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Classes/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Classes/AppDelegate.m
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Classes/AppDelegate.h
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/include/Cordova/CDVViewController.h
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Classes/MainViewController.h
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Classes/AppDelegate.m203"CompileC build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/AppDelegate.o HaloScanner/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler6bb85c0a7098b841^49d56a0a7098b841^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Classes/AppDelegate.m0000000000000000^4197"CompileC build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/AppDelegate.o HaloScanner/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/HaloScanner-generated-files.hmap -I/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/HaloScanner-own-target-headers.hmap -I/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/HaloScanner-all-target-headers.hmap -iquote /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/HaloScanner-project-headers.hmap -I/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/include -I/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/usr/local/lib/include -I/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/UninstalledProducts/include -I/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device -I/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/DerivedSources/armv7 -I/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/DerivedSources -F/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device -include /var/folders/sm/sp2bj73d63sd1nw7gf1lr7440000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/HaloScanner-Prefix-akdudsawwkcfcgbjmndvsdxuqrsz/HaloScanner-Prefix.pch -MMD -MT dependencies -MF /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/AppDelegate.dia -c /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Classes/AppDelegate.m -o /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/AppDelegate.o36"834F6ECC-3C3D-4936-8A6E-C7DC6D84B1BD-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCompileC build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/MainViewController.o /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412643338.362176
+e412643338.407994
+r1
+xCompileC
+xbuild/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/MainViewController.o
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Classes/MainViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Classes/MainViewController.m
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Classes/MainViewController.h
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/include/Cordova/CDVViewController.h
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Compile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Classes/MainViewController.m217"CompileC build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/MainViewController.o HaloScanner/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler38d75c0a7098b841^4583680a7098b841^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Classes/MainViewController.m0000000000000000^4239"CompileC build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/MainViewController.o HaloScanner/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/HaloScanner-generated-files.hmap -I/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/HaloScanner-own-target-headers.hmap -I/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/HaloScanner-all-target-headers.hmap -iquote /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/HaloScanner-project-headers.hmap -I/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/include -I/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/usr/local/lib/include -I/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/UninstalledProducts/include -I/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device -I/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/DerivedSources/armv7 -I/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/DerivedSources -F/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device -include /var/folders/sm/sp2bj73d63sd1nw7gf1lr7440000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/HaloScanner-Prefix-akdudsawwkcfcgbjmndvsdxuqrsz/HaloScanner-Prefix.pch -MMD -MT dependencies -MF /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/MainViewController.d --serialize-diagnostics /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/MainViewController.dia -c /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Classes/MainViewController.m -o /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/MainViewController.o36"649C4460-964D-4DCF-AF48-72CDF59AE3FF-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCompileC build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/main.o /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412643338.361682
+e412643338.378899
+r1
+xCompileC
+xbuild/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/main.o
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/main.m181"CompileC build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/main.o HaloScanner/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler1bbb5c0a7098b841^ba12610a7098b841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/main.m0000000000000000^4139"CompileC build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/main.o HaloScanner/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/HaloScanner-generated-files.hmap -I/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/HaloScanner-own-target-headers.hmap -I/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/HaloScanner-all-target-headers.hmap -iquote /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/HaloScanner-project-headers.hmap -I/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/include -I/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/usr/local/lib/include -I/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/UninstalledProducts/include -I/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device -I/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/DerivedSources/armv7 -I/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/DerivedSources -F/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device -include /var/folders/sm/sp2bj73d63sd1nw7gf1lr7440000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/HaloScanner-Prefix-akdudsawwkcfcgbjmndvsdxuqrsz/HaloScanner-Prefix.pch -MMD -MT dependencies -MF /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/main.dia -c /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/main.m -o /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/main.o36"DAED2C01-734F-41CD-96E1-7E81FF676A74-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCompileXIB /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Classes/MainViewController.xib
+s412643337.893863
+e412643337.914911
+r1
+xCompileXIB
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Classes/MainViewController.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compiling /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Classes/MainViewController.xib53"CompileXIB HaloScanner/Classes/MainViewController.xib8bfee4097098b841^666aea097098b841^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Classes/MainViewController.xib0000000000000000^1063"CompileXIB HaloScanner/Classes/MainViewController.xib    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/MainViewController.nib /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Classes/MainViewController.xib36"892795FE-9BE8-4235-9162-D882F0F89B6F-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default-568h@2x~iphone.png HaloScanner/Resources/splash/Default-568h@2x~iphone.png
+s412643338.220910
+e412643338.345796
+r1
+xCopyPNGFile
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default-568h@2x~iphone.png
+xHaloScanner/Resources/splash/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"CopyPNGFile build/device/HaloScanner.app/Default-568h@2x~iphone.png HaloScanner/Resources/splash/Default-568h@2x~iphone.png123"CopyPNGFile build/device/HaloScanner.app/Default-568h@2x~iphone.png HaloScanner/Resources/splash/Default-568h@2x~iphone.png5bb0380a7098b841^d195580a7098b841^---0#0#1#-19%DVTDocumentLocation2@135"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/splash/Default-568h@2x~iphone.png0000000000000000^1001"CopyPNGFile build/device/HaloScanner.app/Default-568h@2x~iphone.png HaloScanner/Resources/splash/Default-568h@2x~iphone.png    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/splash/Default-568h@2x~iphone.png /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default-568h@2x~iphone.png36"16C067E7-5F51-43C3-B9DA-58BF84ED4A88-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default-Landscape@2x~ipad.png HaloScanner/Resources/splash/Default-Landscape@2x~ipad.png
+s412643337.930217
+e412643338.360632
+r1
+xCopyPNGFile
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default-Landscape@2x~ipad.png
+xHaloScanner/Resources/splash/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"CopyPNGFile build/device/HaloScanner.app/Default-Landscape@2x~ipad.png HaloScanner/Resources/splash/Default-Landscape@2x~ipad.png129"CopyPNGFile build/device/HaloScanner.app/Default-Landscape@2x~ipad.png HaloScanner/Resources/splash/Default-Landscape@2x~ipad.pngce6dee097098b841^e7525c0a7098b841^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/splash/Default-Landscape@2x~ipad.png0000000000000000^1013"CopyPNGFile build/device/HaloScanner.app/Default-Landscape@2x~ipad.png HaloScanner/Resources/splash/Default-Landscape@2x~ipad.png    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/splash/Default-Landscape@2x~ipad.png /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default-Landscape@2x~ipad.png36"BDAFBFC1-DEA9-4496-B3F6-BE552D83FCE9-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default-Landscape~ipad.png HaloScanner/Resources/splash/Default-Landscape~ipad.png
+s412643337.932794
+e412643338.079798
+r1
+xCopyPNGFile
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default-Landscape~ipad.png
+xHaloScanner/Resources/splash/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"CopyPNGFile build/device/HaloScanner.app/Default-Landscape~ipad.png HaloScanner/Resources/splash/Default-Landscape~ipad.png123"CopyPNGFile build/device/HaloScanner.app/Default-Landscape~ipad.png HaloScanner/Resources/splash/Default-Landscape~ipad.png9a08ef097098b841^096e140a7098b841^---0#0#1#-19%DVTDocumentLocation2@135"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/splash/Default-Landscape~ipad.png0000000000000000^1001"CopyPNGFile build/device/HaloScanner.app/Default-Landscape~ipad.png HaloScanner/Resources/splash/Default-Landscape~ipad.png    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/splash/Default-Landscape~ipad.png /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default-Landscape~ipad.png36"19510A81-5C53-4513-AA79-C865F3FEB1A6-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default-Portrait@2x~ipad.png HaloScanner/Resources/splash/Default-Portrait@2x~ipad.png
+s412643337.943278
+e412643338.357223
+r1
+xCopyPNGFile
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default-Portrait@2x~ipad.png
+xHaloScanner/Resources/splash/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"CopyPNGFile build/device/HaloScanner.app/Default-Portrait@2x~ipad.png HaloScanner/Resources/splash/Default-Portrait@2x~ipad.png127"CopyPNGFile build/device/HaloScanner.app/Default-Portrait@2x~ipad.png HaloScanner/Resources/splash/Default-Portrait@2x~ipad.png79b0f1097098b841^82725b0a7098b841^---0#0#1#-19%DVTDocumentLocation2@137"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/splash/Default-Portrait@2x~ipad.png0000000000000000^1009"CopyPNGFile build/device/HaloScanner.app/Default-Portrait@2x~ipad.png HaloScanner/Resources/splash/Default-Portrait@2x~ipad.png    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/splash/Default-Portrait@2x~ipad.png /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default-Portrait@2x~ipad.png36"5C224E62-0EC1-4C6E-BD43-E73923F189C5-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default-Portrait~ipad.png HaloScanner/Resources/splash/Default-Portrait~ipad.png
+s412643337.992659
+e412643338.128643
+r1
+xCopyPNGFile
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default-Portrait~ipad.png
+xHaloScanner/Resources/splash/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"CopyPNGFile build/device/HaloScanner.app/Default-Portrait~ipad.png HaloScanner/Resources/splash/Default-Portrait~ipad.png121"CopyPNGFile build/device/HaloScanner.app/Default-Portrait~ipad.png HaloScanner/Resources/splash/Default-Portrait~ipad.pngf835fe097098b841^06f2200a7098b841^---0#0#1#-19%DVTDocumentLocation2@134"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/splash/Default-Portrait~ipad.png0000000000000000^997"CopyPNGFile build/device/HaloScanner.app/Default-Portrait~ipad.png HaloScanner/Resources/splash/Default-Portrait~ipad.png    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/splash/Default-Portrait~ipad.png /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default-Portrait~ipad.png36"17B6E7D4-F883-4084-A8EC-C96432ECE002-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default@2x~iphone.png HaloScanner/Resources/splash/Default@2x~iphone.png
+s412643338.114934
+e412643338.231053
+r1
+xCopyPNGFile
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default@2x~iphone.png
+xHaloScanner/Resources/splash/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"CopyPNGFile build/device/HaloScanner.app/Default@2x~iphone.png HaloScanner/Resources/splash/Default@2x~iphone.png113"CopyPNGFile build/device/HaloScanner.app/Default@2x~iphone.png HaloScanner/Resources/splash/Default@2x~iphone.png2d931d0a7098b841^342b3b0a7098b841^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/splash/Default@2x~iphone.png0000000000000000^981"CopyPNGFile build/device/HaloScanner.app/Default@2x~iphone.png HaloScanner/Resources/splash/Default@2x~iphone.png    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/splash/Default@2x~iphone.png /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default@2x~iphone.png36"F6AFA64C-316F-4BD4-9927-034660557374-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default~iphone.png HaloScanner/Resources/splash/Default~iphone.png
+s412643338.164028
+e412643338.220685
+r1
+xCopyPNGFile
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default~iphone.png
+xHaloScanner/Resources/splash/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"CopyPNGFile build/device/HaloScanner.app/Default~iphone.png HaloScanner/Resources/splash/Default~iphone.png107"CopyPNGFile build/device/HaloScanner.app/Default~iphone.png HaloScanner/Resources/splash/Default~iphone.pngd3132a0a7098b841^5c91380a7098b841^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/splash/Default~iphone.png0000000000000000^969"CopyPNGFile build/device/HaloScanner.app/Default~iphone.png HaloScanner/Resources/splash/Default~iphone.png    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/splash/Default~iphone.png /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Default~iphone.png36"0F99FF29-A1B5-4B4B-807E-F476C47AE636-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-40.png HaloScanner/Resources/icons/icon-40.png
+s412643338.079951
+e412643338.114692
+r1
+xCopyPNGFile
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-40.png
+xHaloScanner/Resources/icons/icon-40.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/device/HaloScanner.app/icon-40.png HaloScanner/Resources/icons/icon-40.png92"CopyPNGFile build/device/HaloScanner.app/icon-40.png HaloScanner/Resources/icons/icon-40.png3b8d140a7098b841^49811d0a7098b841^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-40.png0000000000000000^939"CopyPNGFile build/device/HaloScanner.app/icon-40.png HaloScanner/Resources/icons/icon-40.png    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-40.png /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-40.png36"5B2703A5-C04A-410D-807D-AFCFF38A0AF9-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-40@2x.png HaloScanner/Resources/icons/icon-40@2x.png
+s412643337.855739
+e412643337.893917
+r1
+xCopyPNGFile
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-40@2x.png
+xHaloScanner/Resources/icons/icon-40@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile build/device/HaloScanner.app/icon-40@2x.png HaloScanner/Resources/icons/icon-40@2x.png98"CopyPNGFile build/device/HaloScanner.app/icon-40@2x.png HaloScanner/Resources/icons/icon-40@2x.png3d29db097098b841^75e4e4097098b841^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-40@2x.png0000000000000000^951"CopyPNGFile build/device/HaloScanner.app/icon-40@2x.png HaloScanner/Resources/icons/icon-40@2x.png    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-40@2x.png /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-40@2x.png36"802A8F27-6D8C-4EB6-B27C-9F905F388593-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-50.png HaloScanner/Resources/icons/icon-50.png
+s412643337.894467
+e412643337.929982
+r1
+xCopyPNGFile
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-50.png
+xHaloScanner/Resources/icons/icon-50.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/device/HaloScanner.app/icon-50.png HaloScanner/Resources/icons/icon-50.png92"CopyPNGFile build/device/HaloScanner.app/icon-50.png HaloScanner/Resources/icons/icon-50.pngf510e5097098b841^4e7bee097098b841^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-50.png0000000000000000^939"CopyPNGFile build/device/HaloScanner.app/icon-50.png HaloScanner/Resources/icons/icon-50.png    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-50.png /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-50.png36"4EFEA3AC-33EF-4483-84B5-EADAD64D4F05-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-50@2x.png HaloScanner/Resources/icons/icon-50@2x.png
+s412643338.231262
+e412643338.269398
+r1
+xCopyPNGFile
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-50@2x.png
+xHaloScanner/Resources/icons/icon-50@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile build/device/HaloScanner.app/icon-50@2x.png HaloScanner/Resources/icons/icon-50@2x.png98"CopyPNGFile build/device/HaloScanner.app/icon-50@2x.png HaloScanner/Resources/icons/icon-50@2x.pngee5d3b0a7098b841^0728450a7098b841^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-50@2x.png0000000000000000^951"CopyPNGFile build/device/HaloScanner.app/icon-50@2x.png HaloScanner/Resources/icons/icon-50@2x.png    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-50@2x.png /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-50@2x.png36"6F328E0F-A562-49AA-AB5B-E3E4666A554B-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-60.png HaloScanner/Resources/icons/icon-60.png
+s412643338.129026
+e412643338.163772
+r1
+xCopyPNGFile
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-60.png
+xHaloScanner/Resources/icons/icon-60.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/device/HaloScanner.app/icon-60.png HaloScanner/Resources/icons/icon-60.png92"CopyPNGFile build/device/HaloScanner.app/icon-60.png HaloScanner/Resources/icons/icon-60.pngc024210a7098b841^20252a0a7098b841^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-60.png0000000000000000^939"CopyPNGFile build/device/HaloScanner.app/icon-60.png HaloScanner/Resources/icons/icon-60.png    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-60.png /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-60.png36"494B6FE6-2A89-4522-A89A-E4A1219A1465-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-60@2x.png HaloScanner/Resources/icons/icon-60@2x.png
+s412643337.897168
+e412643337.943043
+r1
+xCopyPNGFile
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-60@2x.png
+xHaloScanner/Resources/icons/icon-60@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile build/device/HaloScanner.app/icon-60@2x.png HaloScanner/Resources/icons/icon-60@2x.png98"CopyPNGFile build/device/HaloScanner.app/icon-60@2x.png HaloScanner/Resources/icons/icon-60@2x.pngcec7e5097098b841^e97ff1097098b841^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-60@2x.png0000000000000000^951"CopyPNGFile build/device/HaloScanner.app/icon-60@2x.png HaloScanner/Resources/icons/icon-60@2x.png    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-60@2x.png /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-60@2x.png36"5CE433BA-335F-4E9E-8E3E-5B79DFAE6951-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-72.png HaloScanner/Resources/icons/icon-72.png
+s412643337.856641
+e412643337.896917
+r1
+xCopyPNGFile
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-72.png
+xHaloScanner/Resources/icons/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/device/HaloScanner.app/icon-72.png HaloScanner/Resources/icons/icon-72.png92"CopyPNGFile build/device/HaloScanner.app/icon-72.png HaloScanner/Resources/icons/icon-72.png6076db097098b841^ada4e5097098b841^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-72.png0000000000000000^939"CopyPNGFile build/device/HaloScanner.app/icon-72.png HaloScanner/Resources/icons/icon-72.png    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-72.png /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-72.png36"9E24880E-38CD-4E0C-B83B-196803061296-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-72@2x.png HaloScanner/Resources/icons/icon-72@2x.png
+s412643338.315002
+e412643338.353104
+r1
+xCopyPNGFile
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-72@2x.png
+xHaloScanner/Resources/icons/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile build/device/HaloScanner.app/icon-72@2x.png HaloScanner/Resources/icons/icon-72@2x.png98"CopyPNGFile build/device/HaloScanner.app/icon-72@2x.png HaloScanner/Resources/icons/icon-72@2x.png08c7500a7098b841^b4735a0a7098b841^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-72@2x.png0000000000000000^951"CopyPNGFile build/device/HaloScanner.app/icon-72@2x.png HaloScanner/Resources/icons/icon-72@2x.png    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-72@2x.png /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-72@2x.png36"55A6AB31-225E-4E25-ADE7-F074CEC7AA60-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-76.png HaloScanner/Resources/icons/icon-76.png
+s412643337.855580
+e412643337.889834
+r1
+xCopyPNGFile
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-76.png
+xHaloScanner/Resources/icons/icon-76.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/device/HaloScanner.app/icon-76.png HaloScanner/Resources/icons/icon-76.png92"CopyPNGFile build/device/HaloScanner.app/icon-76.png HaloScanner/Resources/icons/icon-76.pngae2adb097098b841^4912e4097098b841^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-76.png0000000000000000^939"CopyPNGFile build/device/HaloScanner.app/icon-76.png HaloScanner/Resources/icons/icon-76.png    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-76.png /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-76.png36"24C47D65-6157-4033-818D-CCF63061F069-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-76@2x.png HaloScanner/Resources/icons/icon-76@2x.png
+s412643338.269755
+e412643338.314767
+r1
+xCopyPNGFile
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-76@2x.png
+xHaloScanner/Resources/icons/icon-76@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile build/device/HaloScanner.app/icon-76@2x.png HaloScanner/Resources/icons/icon-76@2x.png98"CopyPNGFile build/device/HaloScanner.app/icon-76@2x.png HaloScanner/Resources/icons/icon-76@2x.pngf243450a7098b841^36b1500a7098b841^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-76@2x.png0000000000000000^951"CopyPNGFile build/device/HaloScanner.app/icon-76@2x.png HaloScanner/Resources/icons/icon-76@2x.png    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-76@2x.png /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-76@2x.png36"5EDB9550-A472-4B16-9A20-F76A63A6470C-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-small.png HaloScanner/Resources/icons/icon-small.png
+s412643337.918358
+e412643337.955021
+r1
+xCopyPNGFile
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-small.png
+xHaloScanner/Resources/icons/icon-small.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile build/device/HaloScanner.app/icon-small.png HaloScanner/Resources/icons/icon-small.png98"CopyPNGFile build/device/HaloScanner.app/icon-small.png HaloScanner/Resources/icons/icon-small.pnga92feb097098b841^bda9f4097098b841^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-small.png0000000000000000^951"CopyPNGFile build/device/HaloScanner.app/icon-small.png HaloScanner/Resources/icons/icon-small.png    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-small.png /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-small.png36"D172D1B1-1E1C-474D-9BFD-DF6A560E72F2-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-small@2x.png HaloScanner/Resources/icons/icon-small@2x.png
+s412643337.955260
+e412643337.992419
+r1
+xCopyPNGFile
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-small@2x.png
+xHaloScanner/Resources/icons/icon-small@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"CopyPNGFile build/device/HaloScanner.app/icon-small@2x.png HaloScanner/Resources/icons/icon-small@2x.png104"CopyPNGFile build/device/HaloScanner.app/icon-small@2x.png HaloScanner/Resources/icons/icon-small@2x.png77a2f4097098b841^3733fe097098b841^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-small@2x.png0000000000000000^963"CopyPNGFile build/device/HaloScanner.app/icon-small@2x.png HaloScanner/Resources/icons/icon-small@2x.png    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon-small@2x.png /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon-small@2x.png36"2635A5D5-1492-4B8C-B43C-4DCD65633A4A-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon.png HaloScanner/Resources/icons/icon.png
+s412643337.857194
+e412643337.891429
+r1
+xCopyPNGFile
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon.png
+xHaloScanner/Resources/icons/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile build/device/HaloScanner.app/icon.png HaloScanner/Resources/icons/icon.png86"CopyPNGFile build/device/HaloScanner.app/icon.png HaloScanner/Resources/icons/icon.pngb18adb097098b841^9433e4097098b841^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon.png0000000000000000^927"CopyPNGFile build/device/HaloScanner.app/icon.png HaloScanner/Resources/icons/icon.png    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon.png /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon.png36"C863F258-0E1E-43E6-8384-3469E0B20384-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCopyPNGFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon@2x.png HaloScanner/Resources/icons/icon@2x.png
+s412643337.890081
+e412643337.932591
+r1
+xCopyPNGFile
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon@2x.png
+xHaloScanner/Resources/icons/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/device/HaloScanner.app/icon@2x.png HaloScanner/Resources/icons/icon@2x.png92"CopyPNGFile build/device/HaloScanner.app/icon@2x.png HaloScanner/Resources/icons/icon@2x.png5ef2e3097098b841^dfe1ee097098b841^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon@2x.png0000000000000000^939"CopyPNGFile build/device/HaloScanner.app/icon@2x.png HaloScanner/Resources/icons/icon@2x.png    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/icons/icon@2x.png /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/icon@2x.png36"CBD28981-B3D6-488C-931E-644AF2E40490-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCopyStringsFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/de.lproj/Localizable.strings HaloScanner/Resources/de.lproj/Localizable.strings
+s412643337.915151
+e412643337.918206
+r1
+xCopyStringsFile
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/de.lproj/Localizable.strings
+xHaloScanner/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy HaloScanner/Resources/de.lproj/Localizable.strings124"CopyStringsFile build/device/HaloScanner.app/de.lproj/Localizable.strings HaloScanner/Resources/de.lproj/Localizable.stringsc05dea097098b841^683eeb097098b841^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/de.lproj/Localizable.strings0000000000000000^888"CopyStringsFile build/device/HaloScanner.app/de.lproj/Localizable.strings HaloScanner/Resources/de.lproj/Localizable.strings    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/de.lproj -- HaloScanner/Resources/de.lproj/Localizable.strings36"0751AD0C-77C5-489D-914A-566A5F51E2C2-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCopyStringsFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/en.lproj/Localizable.strings HaloScanner/Resources/en.lproj/Localizable.strings
+s412643337.891994
+e412643337.893602
+r1
+xCopyStringsFile
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/en.lproj/Localizable.strings
+xHaloScanner/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy HaloScanner/Resources/en.lproj/Localizable.strings124"CopyStringsFile build/device/HaloScanner.app/en.lproj/Localizable.strings HaloScanner/Resources/en.lproj/Localizable.strings1573e4097098b841^30bae4097098b841^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/Resources/en.lproj/Localizable.strings0000000000000000^888"CopyStringsFile build/device/HaloScanner.app/en.lproj/Localizable.strings HaloScanner/Resources/en.lproj/Localizable.strings    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/en.lproj -- HaloScanner/Resources/en.lproj/Localizable.strings36"F3FC68C6-248A-4D0C-AB37-DA8A5CF8317D-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/HaloScanner.app/ResourceRules.plist
+s412643337.802875
+e412643337.803678
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
+xbuild/device/HaloScanner.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/device/HaloScanner.app/ResourceRules.plist181"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/HaloScanner.app/ResourceRules.plistae9ccd097098b841^59bfcd097098b841^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/ResourceRules.plist00340c5edcffdf42^1026"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/HaloScanner.app/ResourceRules.plist    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app36"E2D1CC0E-F6EF-4A39-BF88-89F0C75BC77C-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CCpResource HaloScanner/config.xml build/device/HaloScanner.app/config.xml
+s412643337.855404
+e412643337.856825
+r1
+xCpResource
+xHaloScanner/config.xml
+xbuild/device/HaloScanner.app/config.xml
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy build/device/HaloScanner.app/config.xml73"CpResource HaloScanner/config.xml build/device/HaloScanner.app/config.xmlf512db097098b841^5859db097098b841^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/config.xml00340c5edcffdf42^892"CpResource HaloScanner/config.xml build/device/HaloScanner.app/config.xml    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/config.xml /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app36"4A909FD3-CEEF-49FE-ADFF-A3F996DD8936-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CGenerateDSYMFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app.dSYM /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/HaloScanner
+s412643338.531566
+e412643338.606545
+r1
+xGenerateDSYMFile
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app.dSYM
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/HaloScanner
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Generate /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app.dSYM91"GenerateDSYMFile build/device/HaloScanner.app.dSYM build/device/HaloScanner.app/HaloScanner4223880a7098b841^17499b0a7098b841^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app.dSYM00340c5edcffdf42^924"GenerateDSYMFile build/device/HaloScanner.app.dSYM build/device/HaloScanner.app/HaloScanner    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/HaloScanner -o /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app.dSYM36"6645A534-1272-456E-8B8C-950C5A698DE6-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CLd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/HaloScanner normal armv7
+s412643338.418187
+e412643338.530466
+r1
+xLd
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/HaloScanner
+xnormal
+xarmv7
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/HaloScanner.LinkFileList
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/libCordova.a
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/main.o
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/AppDelegate.o
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/MainViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/ExternalAccessory.framework/ExternalAccessory
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/libdtdev.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Link /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/HaloScanner56"Ld build/device/HaloScanner.app/HaloScanner normal armv7e02a6b0a7098b841^0bcf870a7098b841^---0#0#1#--2148"Ld build/device/HaloScanner.app/HaloScanner normal armv7    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device -L/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios -F/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device -filelist /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/HaloScanner.LinkFileList -dead_strip -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework ExternalAccessory -framework AssetsLibrary /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/libCordova.a -framework CoreGraphics -ldtdev -framework MobileCoreServices -framework CoreLocation -Xlinker -dependency_info -Xlinker /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/HaloScanner_dependency_info.dat -o /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/HaloScanner36"9ECF398C-25E0-42B7-887A-00DC8FA2DFEF-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CPhaseScriptExecution Copy\ www\ directory /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Script-304B58A110DAC018002A0835.sh
+s412643337.804543
+e412643337.854983
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.029s
+ouser	0m0.011s
+osys	0m0.017s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'133"PhaseScriptExecution Copy\ www\ directory build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Script-304B58A110DAC018002A0835.shc174ce097098b841^eee9da097098b841^-42"real	0m0.029suser	0m0.011ssys	0m0.017s3(21%IDEActivityLogMessage2@14"real	0m0.029s-412643337#1#14#-0#-----2@14"user	0m0.011s-412643337#15#14#-0#-----2@13"sys	0m0.017s-412643337#29#13#-0#-----0#0#1#--23744"PhaseScriptExecution Copy\ www\ directory build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Script-304B58A110DAC018002A0835.sh    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER appirio    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv ALWAYS_USE_SEPARATE_HEADERMAPS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS armv7    setenv ARCHS_STANDARD "armv7 armv7s"    setenv ARCHS_STANDARD_32_64_BIT "armv7 armv7s"    setenv ARCHS_STANDARD_32_BIT "armv7 armv7s"    setenv ARCHS_STANDARD_64_BIT arm64    setenv ARCHS_STANDARD_INCLUDING_64_BIT "armv7 armv7s arm64"    setenv ARCHS_UNIVERSAL_IPHONE_OS "armv7 armv7s"    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build    setenv BUILD_ROOT /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device    setenv CACHE_ROOT /var/folders/sm/sp2bj73d63sd1nw7gf1lr7440000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode    setenv CCHROOT /var/folders/sm/sp2bj73d63sd1nw7gf1lr7440000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLANG_WARN_BOOL_CONVERSION YES    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_EMPTY_BODY YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED YES    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneOSCodeSignContext    setenv CODE_SIGN_IDENTITY "iPhone Developer"    setenv COLOR_DIAGNOSTICS NO    setenv COMBINE_HIDPI_IMAGES NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/sm/sp2bj73d63sd1nw7gf1lr7440000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device    setenv CONFIGURATION_TEMP_DIR /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos    setenv CONTENTS_FOLDER_PATH HaloScanner.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CREATE_INFOPLIST_SECTION_IN_BINARY NO    setenv CURRENT_ARCH armv7    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEFAULT_KEXT_INSTALL_PATH /System/Library/Extensions    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH HaloScanner.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/HaloScanner.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME HaloScanner.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH HaloScanner.app/Executables    setenv EXECUTABLE_FOLDER_PATH HaloScanner.app    setenv EXECUTABLE_NAME HaloScanner    setenv EXECUTABLE_PATH HaloScanner.app/HaloScanner    setenv FILE_LIST /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH HaloScanner.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME HaloScanner.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER HaloScanner/HaloScanner-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNDECLARED_SELECTOR YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_FUNCTION YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/include \"/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/usr/local/lib/include\" \"/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/UninstalledProducts/include\" \"/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE HaloScanner/HaloScanner-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH HaloScanner.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH HaloScanner.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/HaloScanner.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER appirio    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/HaloScanner.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH HaloScanner.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_DEPENDENCY_INFO_FILE /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/HaloScanner_dependency_info.dat    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/HaloScanner-LinkMap-normal-armv7.txt    setenv LD_NO_PIE NO    setenv LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER YES    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_KEXT_INSTALL_PATH /Library/Extensions    setenv LIBRARY_SEARCH_PATHS "/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device  /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios"    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv7 /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal/armv7/HaloScanner.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH HaloScanner.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 13B3116    setenv MAC_OS_X_VERSION_ACTUAL 1091    setenv MAC_OS_X_VERSION_MAJOR 1090    setenv MAC_OS_X_VERSION_MINOR 0901    setenv MODULE_CACHE_DIR /var/folders/sm/sp2bj73d63sd1nw7gf1lr7440000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache    setenv NATIVE_ARCH armv7    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Objects-normal    setenv OBJROOT /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load \"/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/libCordova.a\" -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH HaloScanner.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/PkgInfo    setenv PKGINFO_PATH HaloScanner.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLATFORM_PREFERRED_ARCH arm64    setenv PLATFORM_PRODUCT_BUILD_VERSION 11B508    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH HaloScanner.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH HaloScanner.app/PrivateHeaders    setenv PRODUCT_NAME HaloScanner    setenv PRODUCT_SETTINGS_PATH /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/HaloScanner-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT HaloScanner    setenv PROJECT_DERIVED_FILE_DIR /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/DerivedSources    setenv PROJECT_DIR /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PROJECT_FILE_PATH /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner.xcodeproj    setenv PROJECT_NAME HaloScanner    setenv PROJECT_TEMP_DIR /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build    setenv PROJECT_TEMP_ROOT /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH HaloScanner.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device "    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH HaloScanner.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk    setenv SDK_NAME iphoneos7.0    setenv SDK_PRODUCT_BUILD_VERSION 11B508    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH HaloScanner.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/sm/sp2bj73d63sd1nw7gf1lr7440000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH HaloScanner.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv SRCROOT /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1,2    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_KEXT_INSTALL_PATH /System/Library/Extensions    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME HaloScanner    setenv TARGET_BUILD_DIR /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device    setenv TARGET_NAME HaloScanner    setenv TARGET_TEMP_DIR /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build    setenv TEMP_DIR /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build    setenv TEMP_FILES_DIR /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build    setenv TEMP_FILE_DIR /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build    setenv TEMP_ROOT /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 502    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH HaloScanner.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER appirio    setenv USER_APPS_DIR /Users/appirio/Applications    setenv USER_LIBRARY_DIR /Users/appirio/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "armv7 armv7s"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH HaloScanner.app/version.plist    setenv VERSION_INFO_BUILDER appirio    setenv VERSION_INFO_FILE HaloScanner_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:HaloScanner  PROJECT:HaloScanner-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME HaloScanner.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 5A3005    setenv XCODE_VERSION_ACTUAL 0502    setenv XCODE_VERSION_MAJOR 0500    setenv XCODE_VERSION_MINOR 0500    setenv XPCSERVICES_FOLDER_PATH HaloScanner.app/XPCServices    setenv YACC yacc    setenv arch armv7    setenv variant normal    /bin/sh -c /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/Script-304B58A110DAC018002A0835.sh36"CAF7E5EE-956E-43C5-94B4-4F0EBF23014A-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CProcessInfoPlistFile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Info.plist /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/HaloScanner-Info.plist
+s412643337.800517
+e412643337.802516
+r1
+xProcessInfoPlistFile
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Info.plist
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/HaloScanner-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Process /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/HaloScanner-Info.plist95"ProcessInfoPlistFile build/device/HaloScanner.app/Info.plist HaloScanner/HaloScanner-Info.plistff06cd097098b841^7573cd097098b841^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/HaloScanner-Info.plist0000000000000000^1175"ProcessInfoPlistFile build/device/HaloScanner.app/Info.plist HaloScanner/HaloScanner-Info.plist    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    builtin-infoPlistUtility /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/HaloScanner/HaloScanner-Info.plist -genpkginfo /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/ResourceRules.plist -o /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/Info.plist36"494FF308-F00E-44C2-A744-7C833A9E732F-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CProcessPCH /var/folders/sm/sp2bj73d63sd1nw7gf1lr7440000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/HaloScanner-Prefix-akdudsawwkcfcgbjmndvsdxuqrsz/HaloScanner-Prefix.pch.pch HaloScanner/HaloScanner-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/HaloScanner.xcent
+s412643338.612934
+e412643338.614186
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/HaloScanner.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection219"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/HaloScanner.xcent219"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/HaloScanner.xcent83f89c0a7098b841^533d9d0a7098b841^---0#0#1#-19%DVTDocumentLocation2@154"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/HaloScanner.xcent00340c5edcffdf42^1062"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/HaloScanner.xcent    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/HaloScanner.build/Debug-iphoneos/HaloScanner.build/HaloScanner.xcent36"824D4A45-5CE0-424F-AEDD-B85C014DC78B-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CProcessProductPackaging /Users/appirio/Library/MobileDevice/Provisioning\ Profiles/D3C0DC78-B619-4AA5-B8C2-9D718AA14830.mobileprovision /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/embedded.mobileprovision
+s412643338.607061
+e412643338.608030
+r1
+xProcessProductPackaging
+x/Users/appirio/Library/MobileDevice/Provisioning Profiles/D3C0DC78-B619-4AA5-B8C2-9D718AA14830.mobileprovision
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection189"ProcessProductPackaging /Users/appirio/Library/MobileDevice/Provisioning\ Profiles/D3C0DC78-B619-4AA5-B8C2-9D718AA14830.mobileprovision build/device/HaloScanner.app/embedded.mobileprovision189"ProcessProductPackaging /Users/appirio/Library/MobileDevice/Provisioning\ Profiles/D3C0DC78-B619-4AA5-B8C2-9D718AA14830.mobileprovision build/device/HaloScanner.app/embedded.mobileprovisionfb799b0a7098b841^72a89b0a7098b841^---0#0#1#-19%DVTDocumentLocation2@133"file:///Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/embedded.mobileprovision00340c5edcffdf42^976"ProcessProductPackaging /Users/appirio/Library/MobileDevice/Provisioning\ Profiles/D3C0DC78-B619-4AA5-B8C2-9D718AA14830.mobileprovision build/device/HaloScanner.app/embedded.mobileprovision    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    builtin-productPackagingUtility /Users/appirio/Library/MobileDevice/Provisioning\ Profiles/D3C0DC78-B619-4AA5-B8C2-9D718AA14830.mobileprovision -o /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app/embedded.mobileprovision36"E5EF4478-5240-4FC0-A36B-B398C24E1C02-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+
+CTouch /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app
+s412643338.609126
+e412643338.612505
+r1
+xTouch
+x/Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Touch /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app34"Touch build/device/HaloScanner.appa4fd9b0a7098b841^57cc9c0a7098b841^---0#0#1#--667"Touch build/device/HaloScanner.app    cd /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/ant/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-api-tools-1.4.2.4/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/ec2-ami-tools-1.3-66634/bin:/Users/iandrosov/tools/Amazon_EC2/ec2/RDSCli-1.14.001/bin:/usr/local/git/bin/"    /usr/bin/touch -c /Users/appirio/tools/cordova-3.3.0/cordova-cli/haloscanner/platforms/ios/build/device/HaloScanner.app36"D8A23620-0704-4898-A0C9-2D462576B389-
+b42A78F46-63E8-41CE-8C92-89253AF21295
+

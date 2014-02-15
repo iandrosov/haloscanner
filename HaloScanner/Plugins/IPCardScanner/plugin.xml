@@ -1,0 +1,7 @@
+<platform name="ios">
+    <config-file target="config.xml" parent="/*">
+        <feature name="IPCardScanner">
+            <param name="ios-package" value="IPCardScanner" />
+        </feature>
+    </config-file>
+</platform>
