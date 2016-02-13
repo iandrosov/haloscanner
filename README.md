@@ -47,7 +47,7 @@ Your header file will look like this now.
 
 7. Create native Plugin interface methods for JScript to handle device notifications to HTML side
 
-```
+```objective-c
 -(void) initScanner:(CDVInvokedUrlCommand*)command;
 -(void) scanBarcode:(NSString*)num;
 -(void) scanPaymentCard:(NSString*)num;
@@ -57,7 +57,7 @@ Your header file will look like this now.
 
    Now the plugin interface will look like this:
 
-```
+```objective-c
 #import "CDV.h"
 #import "DTDevices.h"
 
@@ -79,17 +79,21 @@ Your header file will look like this now.
 8. Implement DTDevices interfaces for card scan and magnetic swipe in plugin PICardScanner. Now we write some Objective-c code to implement interface methods we defined. IN this plugin we used 2 Cordova methods to pass data events back nad force for native to web layer.
 
 Command method - Java Script calling native method.
-initScanner:(CDVInvokedUrlCommand*)command - this is more of a reply to method call. this method is invoked from JavaScript via Cordova interface and reply is sent back as a command.
+`initScanner:(CDVInvokedUrlCommand*)command` - this is more of a reply to method call. this method is invoked from JavaScript via Cordova interface and reply is sent back as a command.
 
+```javascript
 cordova.exec(onSuccessScan, onErrorScan, "PICardScanner", "initScanner", []);
+```
 
 In this case onSuccessScan and onErrorScan is javascript asynchronous response handler methods. These methods will be called when initScanner native methods returns. This initialization method is called by our HTML page to start the scanner device.
 
 Native Method Initiating a call to JavaScript function using WebView object
 
+```objective-c
 NSString *jsStatement = [NSString stringWithFormat:@"onSuccessScanBarcode('%@');", num];
 [self.webView stringByEvaluatingJavaScriptFromString:jsStatement];
 [self.viewController dismissViewControllerAnimated:YES completion:nil];
+```
 
 This is a way to call JavaScript from Native code. 
 in our implementation for each native plugin method we will call a corresponding JavaScript function and perform some action on the UI
@@ -99,8 +103,9 @@ Scanner Device Notification Methods
 Our mobile scanner device Universal SDK handles various attachments from Infinate Peripherals for this example we are using iPad scanner device attachment Infinea Tab 4 that has dual function to scan barcodes and magnetic strip on credit cards.
 We need to implement following methods in our plugin
 
+```
 -(void)barcodeData:(NSString *)barcode type:(int)type
 - (void)magneticCardData:(NSString *)track1 track2:(NSString *)track2 track3:(NSString *)track3
 -(void)connectionState:(int)state
-
+```
 
