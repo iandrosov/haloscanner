@@ -12,24 +12,29 @@ Download SDK file - DTDevices-iOS_2013-10-29_v1.82_Universal_XCode5
 2. Add required Framework to project - ExternalAccessory.framework
 
 3. Add scanner SDK DTDevices related files to project
-    a. Create InfineaSDK Group in project
-    b. Copy DTDevice.h and libdtdev.a files into new SDK group
+  * Create InfineaSDK Group in project
+  * Copy DTDevice.h and libdtdev.a files into new SDK group
 
-If you find that project has errors then it is effect of a bug. XCode 5 has a bug for adding new files to project described here how to fix that: https://devforums.apple.com/message/898557#898557  remove extra garbage / \ that xcode places in Library search paths.
+   If you find that project has errors then it is effect of a bug.  
+   XCode 5 has a bug for adding new files to project described here how to fix that:  
+   https://devforums.apple.com/message/898557#898557  remove extra garbage / \ that xcode places in Library search paths.
 
 4. Add Supported External Accessory Products items to project plist property file
 Add 4 items
 
+```
 com.datecs.linea.pro.bar
 com.datecs.linea.pro.msr
 com.datecs.iserial.communication
 com.datecs.pinpad
+```
 
 5. Create basic Plugin IPCardScanner class derive from CDVPlugin to manage delegate and device interface. When .m .h files are generated they have incorrect import <Cordova/Cordova.h> fix it by replacing that with import “CDV.h” for plugin development. 
 
 6. Include DTDevice.h file.
 Your header file will look like this now.
 
+```objective-c
 #import "CDV.h"
 #import "DTDevices.h"
 
@@ -38,15 +43,21 @@ Your header file will look like this now.
 }
 
 @end
+```
 
 7. Create native Plugin interface methods for JScript to handle device notifications to HTML side
+
+```
 -(void) initScanner:(CDVInvokedUrlCommand*)command;
 -(void) scanBarcode:(NSString*)num;
 -(void) scanPaymentCard:(NSString*)num;
 -(void) scannerConect:(NSString*)num;
 -(void) scannerBattery:(NSString*)num;
+```
 
-Now the plugin interface will look like this:
+   Now the plugin interface will look like this:
+
+```
 #import "CDV.h"
 #import "DTDevices.h"
 
@@ -63,6 +74,7 @@ Now the plugin interface will look like this:
 -(void) scannerBattery:(NSString*)num;
 
 @end
+```
 
 8. Implement DTDevices interfaces for card scan and magnetic swipe in plugin PICardScanner. Now we write some Objective-c code to implement interface methods we defined. IN this plugin we used 2 Cordova methods to pass data events back nad force for native to web layer.
 
