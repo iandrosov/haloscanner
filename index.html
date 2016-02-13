@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Haloscanner : Infinite Peripherals iOS Scanner Plugin for hybrid applications.">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Haloscanner</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/iandrosov/haloscanner">View on GitHub</a>
+
+          <h1 id="project_title">Haloscanner</h1>
+          <h2 id="project_tagline">Infinite Peripherals iOS Scanner Plugin for hybrid applications.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/iandrosov/haloscanner/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/iandrosov/haloscanner/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a id="welcome-to-haloscanner-github-pages" class="anchor" href="#welcome-to-haloscanner-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to Haloscanner GitHub Pages.</h3>
+
+<p>This is native iOS Scanner plugin for Cordova 3.3.0 hybrid applications. Supports Infinite Peripherals scanner devices. This plugin is created with Apache Cordova 3.3.0, assuming that Cordova has been installed and set up will start with actual plugin creation. For Cordova setup refer to <a href="http://cordova.apache.org">http://cordova.apache.org</a>.</p>
+
+<h3>
+<a id="get-started-with-scanner-plugin" class="anchor" href="#get-started-with-scanner-plugin" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Get Started with Scanner plugin</h3>
+
+<ol>
+<li>
+<p>Download Infinate Perifirals Unversal SDK v1.82</p>
+
+<p>This will require registration for Developer Portal and sign the basic NDA to get to download page.<br>
+Download SDK file - DTDevices-iOS_2013-10-29_v1.82_Universal_XCode5  </p>
+</li>
+<li><p>Add required Framework to project - ExternalAccessory.framework</p></li>
+<li>
+<p>Add scanner SDK DTDevices related files to project</p>
+
+<ul>
+<li>Create InfineaSDK Group in project</li>
+<li>Copy DTDevice.h and libdtdev.a files into new SDK group</li>
+</ul>
+
+<p>If you find that project has errors then it is effect of a bug.<br>
+XCode 5 has a bug for adding new files to project described here how to fix that:<br>
+<a href="https://devforums.apple.com/message/898557#898557">https://devforums.apple.com/message/898557#898557</a>  remove extra garbage / \<br>
+that xcode places in Library search paths.  </p>
+</li>
+<li><p>Add Supported External Accessory Products items to project plist property file
+Add 4 items</p></li>
+</ol>
+
+<pre><code>com.datecs.linea.pro.bar
+com.datecs.linea.pro.msr
+com.datecs.iserial.communication
+com.datecs.pinpad
+</code></pre>
+
+<ol>
+<li><p>Create basic Plugin IPCardScanner class derive from CDVPlugin to manage delegate and device interface. When .m .h files are generated they have incorrect import  fix it by replacing that with import “CDV.h” for plugin development. </p></li>
+<li><p>Include DTDevice.h file.
+Your header file will look like this now.</p></li>
+</ol>
+
+<div class="highlight highlight-source-objc"><pre>#<span class="pl-k">import</span> <span class="pl-s"><span class="pl-pds">"</span>CDV.h<span class="pl-pds">"</span></span>
+#<span class="pl-k">import</span> <span class="pl-s"><span class="pl-pds">"</span>DTDevices.h<span class="pl-pds">"</span></span>
+
+<span class="pl-k">@interface</span> <span class="pl-en">IPCardScanner</span> : <span class="pl-e">CDVPlugin</span> {
+    DTDevices *dtdev;
+}
+<span class="pl-k">@end</span></pre></div>
+
+<ol>
+<li>Create native Plugin interface methods for JScript to handle device notifications to HTML side</li>
+</ol>
+
+<div class="highlight highlight-source-objc"><pre>-(<span class="pl-k">void</span>) initScanner:(CDVInvokedUrlCommand*)command;
+-(<span class="pl-k">void</span>) scanBarcode:(<span class="pl-c1">NSString</span>*)num;
+-(<span class="pl-k">void</span>) scanPaymentCard:(<span class="pl-c1">NSString</span>*)num;
+-(<span class="pl-k">void</span>) scannerConect:(<span class="pl-c1">NSString</span>*)num;
+-(<span class="pl-k">void</span>) scannerBattery:(<span class="pl-c1">NSString</span>*)num;</pre></div>
+
+<p>Now the plugin interface will look like this:  </p>
+
+<div class="highlight highlight-source-objc"><pre>#<span class="pl-k">import</span> <span class="pl-s"><span class="pl-pds">"</span>CDV.h<span class="pl-pds">"</span></span>
+#<span class="pl-k">import</span> <span class="pl-s"><span class="pl-pds">"</span>DTDevices.h<span class="pl-pds">"</span></span>
+
+<span class="pl-k">@interface</span> <span class="pl-en">IPCardScanner</span> : <span class="pl-e">CDVPlugin</span> {
+    DTDevices *dtdev;
+}
+
+<span class="pl-c">// Cordova command method initialize Scanner device</span>
+-(<span class="pl-k">void</span>) <span class="pl-en">initScanner</span><span class="pl-en">:</span>(CDVInvokedUrlCommand*)<span class="pl-smi">command</span>;
+
+-(<span class="pl-k">void</span>) <span class="pl-en">scanBarcode</span><span class="pl-en">:</span>(<span class="pl-c1">NSString</span>*)<span class="pl-smi">num</span>;
+-(<span class="pl-k">void</span>) <span class="pl-en">scanPaymentCard</span><span class="pl-en">:</span>(<span class="pl-c1">NSString</span>*)<span class="pl-smi">num</span>;
+-(<span class="pl-k">void</span>) <span class="pl-en">scannerConect</span><span class="pl-en">:</span>(<span class="pl-c1">NSString</span>*)<span class="pl-smi">num</span>;
+-(<span class="pl-k">void</span>) <span class="pl-en">scannerBattery</span><span class="pl-en">:</span>(<span class="pl-c1">NSString</span>*)<span class="pl-smi">num</span>;
+
+<span class="pl-k">@end</span></pre></div>
+
+<ol>
+<li>
+<p>Implement DTDevices interfaces for card scan and magnetic swipe in plugin PICardScanner. </p>
+
+<ul>
+<li>Now we write some Objective-c code to implement interface methods we defined.<br>
+</li>
+<li>In this plugin we used 2 Cordova methods to pass data events back and force for native to web layer.<br>
+</li>
+</ul>
+
+<p>Command method - Java Script calling native method.<br>
+<code>initScanner:(CDVInvokedUrlCommand*)command</code> - this is more of a reply to method call.<br>
+This method is invoked from JavaScript via Cordova interface and reply is sent back as a command.  </p>
+</li>
+</ol>
+
+<div class="highlight highlight-source-js"><pre><span class="pl-smi">cordova</span>.<span class="pl-c1">exec</span>(onSuccessScan, onErrorScan, <span class="pl-s"><span class="pl-pds">"</span>PICardScanner<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>initScanner<span class="pl-pds">"</span></span>, []);</pre></div>
+
+<p>In this case <code>onSuccessScan</code> and <code>onErrorScan</code> is javascript asynchronous response handler methods. These methods will be called when initScanner native methods returns. This initialization method is called by our HTML page to start the scanner device.</p>
+
+<p>Native Method Initiating a call to JavaScript function using WebView object</p>
+
+<div class="highlight highlight-source-objc"><pre><span class="pl-c1">NSString</span> *jsStatement = [<span class="pl-c1">NSString</span> <span class="pl-c1">stringWithFormat:</span><span class="pl-s"><span class="pl-pds">@"</span>onSuccessScanBarcode('<span class="pl-c1">%@</span>');<span class="pl-pds">"</span></span>, num];
+[<span class="pl-v">self</span>.webView <span class="pl-c1">stringByEvaluatingJavaScriptFromString:</span>jsStatement];
+[<span class="pl-v">self</span>.viewController <span class="pl-c1">dismissViewControllerAnimated:</span><span class="pl-c1">YES</span> <span class="pl-c1">completion:</span><span class="pl-c1">nil</span>];</pre></div>
+
+<p>This is a way to call JavaScript from Native code. 
+in our implementation for each native plugin method we will call a corresponding JavaScript function and perform some action on the UI</p>
+
+<p>Scanner Device Notification Methods</p>
+
+<p>Our mobile scanner device Universal SDK handles various attachments from Infinate Peripherals for this example we are using iPad scanner device attachment Infinea Tab 4 that has dual function to scan barcodes and magnetic strip on credit cards.
+We need to implement following methods in our plugin</p>
+
+<div class="highlight highlight-source-objc"><pre>-(<span class="pl-k">void</span>)barcodeData:(<span class="pl-c1">NSString</span> *)barcode type:(<span class="pl-k">int</span>)type
+- (<span class="pl-k">void</span>)magneticCardData:(<span class="pl-c1">NSString</span> *)track1 track2:(<span class="pl-c1">NSString</span> *)track2 track3:(<span class="pl-c1">NSString</span> *)track3
+-(<span class="pl-k">void</span>)connectionState:(<span class="pl-k">int</span>)state</pre></div>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Haloscanner maintained by <a href="https://github.com/iandrosov">iandrosov</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
